@@ -1,0 +1,64 @@
+{
+  "shell.jpg": {
+    "rekognition_texts": [
+      {
+        "text": "SHELL",
+        "confidence": 0.5939225387573243
+      },
+      {
+        "text": "BACKBAYSIGN",
+        "confidence": 0.2433623504638672
+      }
+    ],
+    "bedrock_texts": [
+      {
+        "text": "The text shown in the image is \"SHELL\".",
+        "confidence": 0.95
+      }
+    ],
+    "second_opinion_triggered": true,
+    "second_opinion_reason": "Rekognition confidence below 0.7 (lowest: 0.24)"
+  },
+  "bar.png": {
+    "rekognition_texts": [],
+    "bedrock_texts": [
+      {
+        "text": "The text in the provided image is \"BAR\".",
+        "confidence": 0.95
+      }
+    ],
+    "second_opinion_triggered": true,
+    "second_opinion_reason": "No text detected by Rekognition"
+  },
+  "station.png": {
+    "rekognition_texts": [
+      {
+        "text": "1:47",
+        "confidence": 0.9909891510009765
+      },
+      {
+        "text": "Grand",
+        "confidence": 0.9991859436035156
+      },
+      {
+        "text": "Central",
+        "confidence": 0.9942434692382812
+      },
+      {
+        "text": "5",
+        "confidence": 0.9945535278320312
+      },
+      {
+        "text": "Minutes",
+        "confidence": 0.9931076049804688
+      },
+      {
+        "text": "late.",
+        "confidence": 0.9962001037597656
+      }
+    ],
+    "bedrock_texts": [],
+    "second_opinion_triggered": false,
+    "second_opinion_reason": null
+  }
+}
